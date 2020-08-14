@@ -608,6 +608,11 @@ footer .social-networks {
 	text-transform: uppercase;
 }
 
+.mailing b{
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
 footer .social-networks-link{
 	display: inline-flex;
 	justify-content: center;
@@ -628,6 +633,11 @@ footer .social-icon{
 	fill: var(--tretiary-text-color);
 }
 
+.subscribe-form{
+	display: flex;
+	justify-content: space-between;
+}
+
 .mailing {
 	width: calc((100% - 30px) / 2);
 	margin-left: auto;
@@ -641,10 +651,14 @@ footer .social-icon{
 	background-repeat: no-repeat;
 	background-position: center;
 
-	background-image: url(../images/telegram.svg);
+	background-image: url(../images/mail-icon.svg);
 
 	margin-left: 10px;
 }
+
+
+
+
 
 
 /* Portfolio */
