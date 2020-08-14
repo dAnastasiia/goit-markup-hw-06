@@ -268,12 +268,6 @@ header{
 	letter-spacing: 0.06em;
 }
 
-.button:hover,
-.button:focus,
-.button:active{
-	outline: none;
-}
-
 
 /* Advantages */
 
@@ -681,7 +675,6 @@ footer .social-icon{
 	color: var(--tretiary-text-color);
 
 	cursor: pointer;
-	outline: none;
 }
 
 .projects-list a {
@@ -863,7 +856,6 @@ footer .social-icon{
 .modal-icon:focus,
 .modal-icon:active{
 	cursor: pointer;
-	outline: none;
 }
 
 .close-icon{
