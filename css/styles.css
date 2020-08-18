@@ -1073,13 +1073,13 @@ footer .social-icon{
 	width: 16px;
 	height: 15px;
 
-	background-image: url(/images/check-off.svg);
+	background-image: url(../images/check-off.svg);
 
 	transition: background-image var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox:checked + .icon-checkbox{
-	background-image: url(/images/check-on.svg);
+	background-image: url(../images/check-on.svg);
 }
 
 .agreement{
